@@ -1,0 +1,34 @@
+{
+  "name": "assignment-8-authenticated-tasks-system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "setup": "node database/setup.js",
+    "seed": "node database/seed.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "express": "^5.1.0",
+    "express-session": "^1.19.0",
+    "sequelize": "^6.37.7",
+    "sqlite3": "^5.1.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/priscillaemy01-pixel/Assignment-8-Authenticated-Tasks-System.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/priscillaemy01-pixel/Assignment-8-Authenticated-Tasks-System/issues"
+  },
+  "homepage": "https://github.com/priscillaemy01-pixel/Assignment-8-Authenticated-Tasks-System#readme",
+  "allowScripts": {
+    "sqlite3@5.1.7": true
+  }
+}
